@@ -64,7 +64,7 @@ function generatePassword() {
         var characters = alphabetical.concat(symbolic, numbers)
     } else if (symbolCheck.checked && !numberCheck.checked) {
         var characters = alphabetical.concat(symbolic)
-    } else if (!symbolCheck.checkd && numberCheck.checked) {
+    } else if (!symbolCheck.checked && numberCheck.checked) {
         var characters = alphabetical.concat(numbers)
     } else {
         var characters = alphabetical
