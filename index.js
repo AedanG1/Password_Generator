@@ -87,8 +87,6 @@ function copy(text) {
 function updateScore() {
     if (sliderValue > 15 && numberCheck.checked && symbolCheck.checked) {
         scoreEl.textContent = 'Strong'
-    } else if (sliderValue > 15 && !numberCheck.checked || !symbolCheck.checked) {
-        scoreEl.textContent = 'Good'
     } else if (sliderValue < 16 && sliderValue > 11) {
         scoreEl.textContent = 'Good'
     } else if (sliderValue < 12 && sliderValue > 6) {
