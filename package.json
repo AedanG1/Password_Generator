@@ -3,7 +3,7 @@
   "description": "https://v2.scrimba.com/learn-javascript-c0v/~03f",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
   },
